@@ -27,7 +27,12 @@ python*/
 .python-version
 
 # Java
-target/*
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
 
 #IntelliJ
 .idea/
