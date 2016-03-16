@@ -17,7 +17,13 @@ dialyzer_warnings
 .rebar/*
 
 # Java
-target/*
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
 
 # C
 c/*
+
