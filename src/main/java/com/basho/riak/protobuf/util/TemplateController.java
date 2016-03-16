@@ -22,7 +22,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -64,7 +63,7 @@ public class TemplateController
             sb.append(csv[0]).append(";\n");
             
         }
-        
+        in.close();
         result.put("packageName", "com.basho.riak.protobuf");
         result.put("codes", sb.toString());
         return result;

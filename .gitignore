@@ -29,6 +29,9 @@ python*/
 # Java
 /target/
 
+# Generated
+/src/main/java/com/basho/riak/protobuf/*
+
 # Eclipse
 .classpath
 .project
